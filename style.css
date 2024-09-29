@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f1f5f9;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.contact-info p {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.contact-info .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  color: #008080;
+  border-bottom: 2px solid #008080;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.section p, .section ul {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+}
+
+.skills-list, .hobbies-list, .languages-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.education-item, .project-item {
+  margin-bottom: 10px;
+}
+
+.education-item h3, .project-item h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+}
+
+.project-link {
+  font-size: 1rem;
+  color: #008080;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .contact-info p {
+    font-size: 0.9rem;
+  }
+
+  .section h2 {
+    font-size: 1.2rem;
+  }
+
+  .section p, .section ul {
+    font-size: 0.9rem;
+  }
+
+  .education-item h3, .project-item h3 {
+    font-size: 1rem;
+  }
+
+  .project-link {
+    font-size: 0.9rem;
+  }
+}
